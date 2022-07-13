@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7e79b95b73.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon-32x32.png" />
+    <title>Intro component with sign-up form</title>
+</head>
+
+<body>
+    <section class="section">
+        <div class="content">
+            <div class="text">
+                <h1 class="title">learn the code by <br> watching others</h1>
+                <p class="about">
+                    see how experienced developers solve problems in real-time <br> watching scripted tutorials is
+                    great, but
+                    understanding how <br> developers think is invaluable.
+                </p>
+            </div>
+        </div>
+        <div class="form-all">
+            <div class="form-contents">
+                <h1 class="form-title"><span class="form-span">try ir free 7 days</span>then $20/mo. thereafter</h1>
+                <form class="box" id="form" action="#">
+                    <div class="userame">
+                        <input class="control" type="text" id="username" placeholder="Enter username">
+                        <i class="fa-solid fa-circle-exclamation fa-xl exclamation"></i>
+                        <div class="alert">User name cannot be empty</div>
+                    </div>
+                    <div class="last-name">
+                        <input class="control" type="text" id="lastname" placeholder="Enter lastname">
+                        <i class="fa-solid fa-circle-exclamation fa-xl exclamation"></i>
+                        <div class="alert">last name cannot be empty</div>
+                    </div>
+                    <div class="email">
+                        <input class="control" type="email" id="email" placeholder="Enter email">
+                        <i class="fa-solid fa-circle-exclamation fa-xl exclamation"></i>
+                        <div class="alert">look likes this is not an email</div>
+                    </div>
+                    <div class="password">
+                        <input class="control" type="password" id="password" placeholder="Enter-password">
+                        <i class="fa-solid fa-circle-exclamation fa-xl exclamation"></i>
+                        <div class="alert">password cannot be empty</div>
+                    </div>
+                    <button class="submit" type="submit">claım your free trial</button>
+                    <p class="form-text">
+                        by clicking the button,you are agreeing to our <span class="text-red">Terms and Services</span>
+                    </p>
+                </form>
+            </div>
+
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
