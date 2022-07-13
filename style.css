@@ -28,6 +28,7 @@ html {
 
 body .section {
   max-width: 90rem;
+  width: 100%;
   height: 100vh;
   background-image: url(./img/bg-desktop.png);
   background-position: center;
@@ -142,7 +143,7 @@ body .section .form-all .form-contents .box {
   width: 100%;
   height: 29.5rem;
   border-radius: 10px;
-  background-color: var(--clr-Grayish-Blue);
+  background-color: var(--clr-text-font-white);
   padding: 2.5rem;
 }
 
